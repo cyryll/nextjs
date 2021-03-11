@@ -5,9 +5,6 @@ export default function Home({articles}) {
   // console.log(articles)
   return (
     <div>
-      <Head>
-        <title>Head</title>
-      </Head>
       <ArticleList articles={articles} />
     </div>
   )
